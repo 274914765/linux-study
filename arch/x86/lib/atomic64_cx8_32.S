@@ -11,6 +11,7 @@
 
 #include <linux/linkage.h>
 #include <asm/alternative-asm.h>
+.code32
 
 .macro read64 reg
 	movl %ebx, %eax
